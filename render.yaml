@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: base44-admin-api
+    env: node
+    plan: free
+    buildCommand: yarn
+    startCommand: node server.js
+    autoDeploy: true
